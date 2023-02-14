@@ -1,0 +1,165 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pressure</title>
+    <!--Icono-->
+    <link rel="icon" type="image/x-icon" href="{% static 'img/sneaker.png' %}">
+    <!--Styles-->
+    <link rel="stylesheet" href="{% static 'styles/styles.css'%}">
+    <!--Font Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <!--Menu de navegación-->
+        <nav class="nav-main">
+            <img src="{% static '/img/sneaker.png' %}" alt="Pressure-Logo" class="nav-icono">
+            <ul class="nav-menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Shop</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+            </ul>
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--ShowBar-->
+        <header class="showbar">
+            <header class="blur">
+                <h2>One Spirit Best Wear</h2>
+                <p>#PressureWear</p>
+                <a href="#" class="button">Mostrar más</a>
+            </header>
+        </header>
+    
+
+        <!--Mostrador-->
+        <div class="mostrador">
+            <div>
+                <img src="{% static 'img/blazerlow-77.png' %}" alt="nikes">
+                <h3>Nike Blazers Low 77</h3>
+                <p>Lifestyle</p>
+                <a href="#">Ver más</a>
+            </div>
+            <div>
+                <img src="{% static 'img/AdidasOzweego.png' %}" alt="nikes">
+                <h3>Adidas Ozweego</h3>
+                <p>Lifestyle</p>
+                <a href="#">Ver más</a>
+            </div>
+            <div>
+                <img src="{% static 'img/LiteRacer3.0.png' %}" alt="nikes">
+                <h3>Adidas Lite Racer 3.0</h3>
+                <p>Lifestyle</p>
+                <a href="#">Ver más</a>
+            </div>
+            <div>
+                <img src="{% static 'img/newbalanceuae.png' %}" alt="nikes">
+                <h3>New Balance UAE</h3>
+                <p>Lifestyle</p>
+                <a href="#">Ver más</a>
+            </div>
+        </div>
+     
+
+        <!--Conocenos-->
+        <section class="conocenos">
+            <div class="contenido">
+                <h2>Conocenos</h2>
+                <p>Aquí podrás saber más sobre nosotros</p>
+                <a href="./conocenos.html">Ver más</a>
+            </div>
+        </section>
+
+        <!--Social-->
+
+        <section class="social">
+            <p>Siguenos en nuestras redes sociales</p>
+            <div class="links">
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+        
+        <!--Pie de pagina-->
+        <div class="piedepagina">
+            <div class="contenido_piedepagina">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h3>Title One</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Prueba</a>
+                    </li>
+                    <li>
+                        <a href="#">Prueba</a>
+                    </li>
+                    <li>
+                        <a href="#">Prueba</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h3>Title Two</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Prueba</a>
+                    </li>
+                    <li>
+                        <a href="#">Prueba</a>
+                    </li>
+                    <li>
+                        <a href="#">Prueba</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+       <footer class="footer">
+            <h3>
+                Pressure Copyright
+            </h3>
+       </footer>
+    </div>
+
+    <!--ScrollReveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--Custom JS-->
+    <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
