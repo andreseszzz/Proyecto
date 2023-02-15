@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conocenos</title>
     <!--Icono-->
-    <link rel="icon" type="image/x-icon" href="./img/sneaker.png">
+    <link rel="icon" type="image/x-icon" href="{% static '/img/sneaker.png' %}">
     <!--Styles-->
     <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
     <!--Font Poppins-->
@@ -22,7 +22,7 @@
     <div class="container">
         <!--Menú de navegación-->
         <nav class="nav-main">
-            <img src="./img/sneaker.png" alt="Pressure-Logo" class="nav-icono">
+            <img src="{% static '/img/sneaker.png' %}" alt="Pressure-Logo" class="nav-icono">
             <ul class="nav-menu">
                 <li>
                     <a href="#">Home</a>
@@ -46,7 +46,7 @@
         <!--Contenedor del conocenos-->
         <section class="acercadenosotros">
             <div class="imagenconocenos">
-
+                <img src="{}" alt="">
             </div>
             <div class="acercade">
                 <h2>Acerca de nosotros</h2>
@@ -119,7 +119,7 @@
     <!--ScrollReveal-->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!--Custom JS-->
-    <script src="./main.js"></script>
+    <script src="{% static 'js/main.js' %}"></script>
     </div>
 </body>
 </html>

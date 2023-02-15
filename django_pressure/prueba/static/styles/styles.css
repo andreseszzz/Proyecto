@@ -231,10 +231,8 @@ h2{
 
 .imagenconocenos{
     width: 70%;
-    height: 800px;
-    background: url('./img/conocenos.jpg') no-repeat center center/cover;
-    margin-top: 10px;
-    display: inline-block;
+    border: 1px solid black;
+
 }
 
 .acercade{
